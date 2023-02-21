@@ -1,0 +1,16 @@
+<h1>Create a new Restaurant</h1>
+
+<%# <div> %>
+<%= simple_form_for @restaurant do |f| %>
+  <%= f.input :name %>
+  <%= f.input :address %>
+  <%= f.input :phone_number %>
+  <%# <%= f.input :category, collection: ['chinese', 'italian', 'japanese', 'french', 'belgian'] %>
+   <%= f.input :category, collection: Restaurant::CATEGORY %>
+   <%# <%= f.input :name, :collection => %w[Mike Nick Jason Tim] %>
+
+  <%= f.submit %>
+<% end %>
+<%# </div> %>
+  <%# <%= f.input :species, collection: Pet::SPECIES %>
+<%# ['chinese', 'italian', 'japanese', 'french', 'belgian'] %>
