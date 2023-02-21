@@ -25,6 +25,7 @@ gem "turbo-rails"
 gem "stimulus-rails"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
+# Comment this out?
 gem "jbuilder"
 
 # Use Redis adapter to run Action Cable in production
@@ -44,6 +45,9 @@ gem "bootsnap", require: false
 
 # Use Sass to process CSS
 # gem "sassc-rails"
+
+# Simple form
+gem "simple_form", github: "heartcombo/simple_form"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
