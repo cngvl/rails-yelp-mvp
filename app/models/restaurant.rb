@@ -1,5 +1,6 @@
 class Restaurant < ApplicationRecord
-  CATEGORY = %w(dog cat bird horse)
-  validates :name, presence: true
+  CATEGORY = ['chinese', 'italian', 'japanese', 'french', 'belgian']
+  validates :name, :address, presence: true
   validates :category, inclusion: { in: CATEGORY }
+  has_many :reviews, dependent: :destroy
 end
