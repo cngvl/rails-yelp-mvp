@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+The purpose of this Le Wagon challenge was to create a MVP of a two-model Rails app with a restaurant and reviews. Again, this challenged help me tie together CRUD and model concepts I had learned from previous challenges to solidify my understanding of how an app works. 
 
 * Ruby version
+```
+ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [arm64-darwin21]
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Deployment instructions <br>
+To launch a webserver and run the app locally just run 
+```
+rails s
+```
